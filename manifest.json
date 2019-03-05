@@ -1,15 +1,15 @@
 {
-  "name": "सुडोकु खेलो",
-  "short_name": "सुडोकु",
-  "theme_color": "#5959ffb8",
-  "background_color": "#ffffff",
+  "name": "सुन्दरकाण्ड",
+  "short_name": "सुन्दरकाण्ड",
+  "theme_color": "orange",
+  "background_color": "black",
   "display": "standalone",
-  "orientation": "portrait",
+  "orientation": "landscape",
   "scope": "/",
-  "start_url": "sudoku.html",
+  "start_url": "index.html",
 	"icons": [
     {
-      "src": "assets/sudokus.png",
+      "src": "assets/icon.png",
       "type": "image/png",
       "sizes": "192x192"
     }
