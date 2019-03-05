@@ -38,7 +38,8 @@
                 grid-row : 2 / 3;
                 grid-column :  2 / 3;
                 user-select: none;
-                font-size : 3vmax;
+                font-size : 2vmax;
+
             }
 
 			.footer{
@@ -91,7 +92,8 @@
 		let main = document.getElementsByClassName("main")[0];
 		
 		let counter =0;
-		let acc = '';
+        let acc = '';
+        
 		rem_br = (a) => {
 		if(a.search(/<br>/)==-1) return acc; 
 		else {
@@ -115,7 +117,8 @@
 		let current = 0; 
 		
 		function produce(num){
-			window.scrollTo(0, 0);
+            checker(arr[0]);
+            
 			if(num==1)
 				{
 					if(current==0) { main.innerHTML = arr[0]; }
@@ -128,6 +131,20 @@
 					if(current==arr.length-1) { main.innerHTML = arr[current-1]; }
 					else 
 					{  main.innerHTML = arr[current+1]; current = current+1;}
+                }
+
+        }
+        
+        function checker(a)
+		{
+			let x = (a.match(/।।/g) || []).length;
+			if( x > 10)
+				{
+					main.style.fontSize = '2vmax';
+				}
+			else 
+				{
+					main.style.fontSize = '2.3vmax;';
 				}
 		}
 
