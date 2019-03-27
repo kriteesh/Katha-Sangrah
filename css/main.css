@@ -1,19 +1,54 @@
 html,body{
-    margin :0px;
+    margin:0;
+    overflow:hidden;
+    height: 100%;
 }
 
 .header{
-    position : absolute; 
-    top : 0px;
-    text-align : center;
-    font-size : 7vh;
-    width : 100%;
-    height : 10vh;
-    color : white;
-    line-height: 10vh;
-    background: linear-gradient(to left, #f44336e0,#ff9800e6);
-    font-family :'Khand',monospace;
+    position: absolute;
+    top : 0;
+    width : 100vw;
+    height : 8vh;
+    text-align: center;
+    line-height: 8vh;
+    font-size : 6vmin;
+    background : orange;
 }
-    
+.main {
+    width: 100vw;
+    top : 10vh;
+    height : 80vh;
+}
+.page{
+    width : 100vw;
+    display:flex!important;
+    flex-direction: column;
+    justify-content: space-between;
+    height : 80vh;
+    margin-right: 10px;
 
-
+}
+.verse{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer{
+    position: absolute;
+    bottom : 0;
+    width : 100vw;
+    height : 8vh;
+    text-align: center;
+    line-height: 8vh;
+    font-size : 6vmin;
+    background :tomato;
+}
+.circle{
+    background: #FF5722;
+    border-radius: 50%;
+    width: 6vh;
+    height: 6vh;
+    line-height : 6vh;
+    text-align: center;
+    font-size: smaller;
+}
