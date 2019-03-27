@@ -1,16 +1,16 @@
 {
-  "name": "सुन्दरकाण्ड",
-  "short_name": "सुन्दरकाण्ड",
-  "theme_color": "orange",
-  "background_color": "black",
+  "name": "कथा संग्रह",
+  "short_name": "कथा संग्रह",
+  "theme_color": "indigo",
+  "background_color": "white",
   "display": "standalone",
   "orientation": "landscape",
   "scope": "/",
   "start_url": "index.html",
 	"icons": [
     {
-      "src": "assets/icon.jpg",
-      "type": "image/jpg",
+      "src": "assets/icon.png",
+      "type": "image/png",
       "sizes": "192x192"
     }
   ]

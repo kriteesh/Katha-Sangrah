@@ -11,8 +11,11 @@ html,body{
     height : 8vh;
     text-align: center;
     line-height: 8vh;
-    font-size : 6vmin;
-    background : orange;
+    font-size : 5vmin;
+    background: #FF9800;
+    color: #503b33;
+    display: flex;
+    justify-content: center;
 }
 .main {
     width: 100vw;
@@ -40,8 +43,9 @@ html,body{
     height : 8vh;
     text-align: center;
     line-height: 8vh;
-    font-size : 6vmin;
-    background :tomato;
+    color: #3a4033;
+    font-size: 5vmin;
+    background: #8BC34A;
 }
 .circle{
     background: #FF5722;
@@ -51,4 +55,9 @@ html,body{
     line-height : 6vh;
     text-align: center;
     font-size: smaller;
+}
+
+.bordered{
+    background: radial-gradient(circle,#673ab75e 1px,transparent 2px);
+    background-size: 3px 3px;
 }

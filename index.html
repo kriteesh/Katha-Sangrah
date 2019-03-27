@@ -5,15 +5,18 @@
 		<link rel="manifest" href="manifest.json">
 		<meta name="viewport" content="width=device-width">
 		<meta name="mobile-web-app-capable" content="yes">
-		<link rel="icon" sizes="192x192" href="assets/icon.jpg">
+		<link rel="icon" sizes="192x192" href="assets/icon.png">
 		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css"/>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
         <script src="js/sunderkand.js"></script>
 	</head>
 	<body>
-			<div class="header">jai bajrang bali</div>
+			<div class="header">
+				<div class="title"></div>
+			</div>
 			<div class="main"></div>
-            <div class="footer">jumnaji</div>
+      <div class="footer">
+			</div>
 		<script type="text/javascript" src="js/main.js"></script>
 		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
 	</body>
@@ -21,7 +24,8 @@
 		var flkty = new Flickity( '.main', {
         // options
         pageDots: false,
-        contain: true
+				contain: true,
+				wrapAround:true
         });
 	  </script>
 	 	<script>
