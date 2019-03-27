@@ -1,10 +1,10 @@
 let cacheName = 'v1';
 let cacheFiles = [
-  '/js/sudoku.js',
-  '/js/sweetAlert.min.js',
-  '/css/animate.css',
+  '/js/sunderkand.js',
+  '/js/main.js',
+  '/css/main.css',
   '/manifest.json',
-  '/sudoku.html'
+  '/index.html'
 ]
 
 self.addEventListener('install', function(event) {
