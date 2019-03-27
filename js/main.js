@@ -22,7 +22,7 @@ let main = document.getElementsByClassName("main")[0];
 				z=z.replace(/दो0-/g,"").replace(/छं=/g,"");
 
 				if(z.length < 4) bar.classList.add('circle');
-				((k%2==0)&&(z.length > 3))? bar.innerHTML = z + "।" : bar.innerHTML = z ;
+				((k%2==0)&&(z.length > 3))? bar.innerHTML = z + "।&nbsp;" : bar.innerHTML = z ;
 
 
 				
